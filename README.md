@@ -1,5 +1,9 @@
 # Configuration-Server
 
+dependencies:
+for confserver:"spring-cloud-config-server".
+for client: "Spring Cloud Starter Config".
+
 In this project, we set up a configuration server to get properties from it. The properties of this server have higher priority than the local ones, so if we have the same property locally and in the configserver the remote one would be activated.
 
 The ConfigServer will read the application.properties file from Git repository and provide the webservices by them.

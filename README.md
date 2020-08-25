@@ -12,3 +12,7 @@ After creating git repository we need to upload application.properties in the ma
 
 After that, we should configure the services as a client of ConfigServer by adding bootstrap.properties and add the Uri of the configserver and its name. 
 If we want all of our services that registered to eureka to use the remote properties then we have to configure out zuul gateway as a client of ConfigServer also.
+
+<h2>application architecture<h2>
+<img src="diagram.jpg"/>
+    
